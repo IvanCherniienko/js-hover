@@ -1,0 +1,46 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: 200px 200px;
+}
+
+.rex {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.js-first-item {
+    background-color: aqua;
+}
+
+.js-second-item {
+    background-color: bisque;
+}
+
+.js-third-item {
+    background-color: cadetblue;
+}
+
+.js-fourth-item {
+    background-color: yellow;
+}
+
+.test {
+    animation: animation 2s;
+    animation-duration: 2s;
+}
+
+@keyframes animation {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(72px, 38px);
+    }
+}
+
